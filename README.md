@@ -147,6 +147,8 @@ Value               https://abcd1234.execute-api.us-east-1.amazonaws.com/dev/
 
 If you selected to deploy the React frontend using Amplify Hosting, navigate to the Amplify console to check the build status. If the build does not start automatically, trigger it through the Amplify console.
 
+Remember to create a role for the Amplify deployment as [guided here](https://docs.aws.amazon.com/amplify/latest/userguide/how-to-service-role-amplify-console.html)
+
 If you selected to run the React frontend locally and connect to the deployed resources in AWS, you will use the CloudFormation stack outputs in the following section.
 
 ### Optional: Run the React frontend locally
